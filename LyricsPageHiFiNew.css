@@ -1,0 +1,421 @@
+.icon,
+.lyrics {
+  position: absolute;
+}
+.icon {
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 119px;
+  object-fit: cover;
+}
+.lyrics {
+  top: 377px;
+  left: 824px;
+  font-size: 36px;
+  line-height: 20px;
+  color: var(--color-black);
+}
+.carbonnotification-icon {
+  position: absolute;
+  top: 36px;
+  left: 1287px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.frame-child,
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  width: 940px;
+  height: 638px;
+}
+.frame-child {
+  background-color: var(--color-gray-400);
+}
+.frame-item {
+  object-fit: cover;
+}
+.david-guetta-feat {
+  position: relative;
+  line-height: 20px;
+  -webkit-text-stroke: 1px #609;
+}
+.david-guetta-feat-sia-titan-wrapper {
+  position: absolute;
+  top: 536px;
+  left: 19px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-black);
+  border: 1px solid var(--orange);
+  box-sizing: border-box;
+  width: 902px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lyrics-page-hi-fi-new-child,
+.lyrics-page-hi-fi-new-item,
+.rectangle-parent {
+  position: absolute;
+  top: 113px;
+  left: 382px;
+  width: 940px;
+  height: 638px;
+}
+.lyrics-page-hi-fi-new-child,
+.lyrics-page-hi-fi-new-item {
+  border-radius: var(--br-9xs);
+}
+.lyrics-page-hi-fi-new-child {
+  background-color: var(--color-gray-400);
+}
+.lyrics-page-hi-fi-new-item {
+  object-fit: cover;
+}
+.david-guetta-feat-sia-titan-container {
+  position: absolute;
+  top: 649px;
+  left: 401px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-black);
+  border: 1px solid var(--orange);
+  box-sizing: border-box;
+  width: 902px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 25px;
+  align-items: center;
+  justify-content: center;
+}
+.component-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.ellipse-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.carbonnotification-parent {
+  position: absolute;
+  top: 27px;
+  left: 1272px;
+  width: 107px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.icbaseline-favorite-border-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.favorite-songs {
+  position: relative;
+  line-height: 20px;
+}
+.carbonplaylist-parent,
+.icbaseline-favorite-border-parent,
+.icon-park-outlinefind-parent {
+  position: absolute;
+  top: 431px;
+  left: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.carbonplaylist-parent,
+.icon-park-outlinefind-parent {
+  top: 306px;
+  left: 26px;
+}
+.icon-park-outlinefind-parent {
+  top: 382px;
+  cursor: pointer;
+}
+.settings {
+  position: relative;
+}
+.akar-iconsmusic-album-parent,
+.bytesizesettings-parent {
+  position: absolute;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.bytesizesettings-parent {
+  top: 556px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-effra-trial);
+}
+.akar-iconsmusic-album-parent {
+  top: 210px;
+  cursor: pointer;
+}
+.bxsplaylist-icon {
+  position: relative;
+  width: 24px;
+  height: 22px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.bxsplaylist-parent {
+  top: 259px;
+  justify-content: center;
+  color: var(--color-black);
+}
+.bxsplaylist-parent,
+.bxuser-circle-parent,
+.clarityhome-solid-parent {
+  position: absolute;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+  cursor: pointer;
+}
+.clarityhome-solid-parent {
+  top: 161px;
+  width: 200px;
+  justify-content: flex-start;
+}
+.bxuser-circle-parent {
+  top: 480px;
+  justify-content: center;
+}
+.frame-inner {
+  position: absolute;
+  top: 258px;
+  left: 0;
+  background-color: var(--color-black);
+  width: 8px;
+  height: 24px;
+}
+.i-1-1 {
+  position: absolute;
+  top: 32px;
+  left: 88px;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+.frame-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#609, #609), #609;
+  width: 263px;
+  height: 905px;
+  font-size: var(--h1-size);
+}
+.favorite-songs1 {
+  position: relative;
+  font-size: var(--h1-size);
+  line-height: 20px;
+  font-family: var(--h2-24);
+  color: var(--white);
+  text-align: left;
+}
+.carbonplaylist-group,
+.icbaseline-favorite-border-group,
+.icon-park-outlinefind-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 403px;
+  left: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.carbonplaylist-group,
+.icon-park-outlinefind-group {
+  top: 306px;
+  left: 26px;
+}
+.icon-park-outlinefind-group {
+  top: 353px;
+}
+.settings1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-effra-trial);
+  color: var(--white);
+  text-align: left;
+}
+.akar-iconsmusic-album-group,
+.bytesizesettings-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 510px;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.akar-iconsmusic-album-group {
+  top: 210px;
+}
+.playlist1 {
+  position: relative;
+  font-size: var(--h1-size);
+  line-height: 20px;
+  font-family: var(--h2-24);
+  color: var(--color-black);
+  text-align: left;
+}
+.bxsplaylist-group {
+  top: 259px;
+  justify-content: center;
+}
+.bxsplaylist-group,
+.bxuser-circle-group,
+.clarityhome-solid-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.clarityhome-solid-group {
+  top: 161px;
+  width: 200px;
+  justify-content: flex-start;
+}
+.bxuser-circle-group {
+  top: 455px;
+  justify-content: center;
+}
+.frame-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#609, #609), #609;
+  width: 263px;
+  height: 905px;
+}
+.div,
+.div1 {
+  position: absolute;
+  top: 770px;
+  left: 382px;
+  font-size: var(--font-size-mini);
+  line-height: 20px;
+}
+.div1 {
+  left: 1290px;
+}
+.lyrics-page-hi-fi-new-inner {
+  position: absolute;
+  top: 775.2px;
+  left: 425px;
+  width: 855px;
+  height: 8.6px;
+}
+.frame-div,
+.lyrics-page-hi-fi-new-child1 {
+  position: absolute;
+  top: 798px;
+  left: 382px;
+  width: 940px;
+  height: 60px;
+}
+.frame-div {
+  top: 0;
+  left: 19px;
+  width: 825px;
+  height: 475px;
+  overflow: hidden;
+}
+.wrapper {
+  position: absolute;
+  top: 649px;
+  left: 0;
+  width: 940px;
+  height: 60px;
+}
+.frame-container,
+.frame-input {
+  position: absolute;
+  top: 149px;
+  left: 382px;
+  width: 940px;
+  height: 709px;
+}
+.frame-input {
+  border: 2px solid var(--color-gainsboro);
+  font-family: var(--h2-24);
+  font-size: var(--h1-size);
+  background-color: transparent;
+  top: 27px;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  width: 586px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+}
+.lyrics-page-hi-fi-new {
+  position: relative;
+  width: 100%;
+  height: 905px;
+  overflow: hidden;
+  background-image: url(./public/now-playing-hifi-new@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--h2-24-size);
+  color: var(--white);
+  font-family: var(--h2-24);
+}

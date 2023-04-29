@@ -1,0 +1,442 @@
+.frame-child,
+.image-5-icon {
+  position: absolute;
+  border-radius: var(--br-5xs);
+  width: 205px;
+  height: 128px;
+}
+.frame-child {
+  top: 0;
+  left: 0;
+  background-color: var(--grey-1);
+}
+.image-5-icon {
+  top: 10px;
+  left: 10px;
+  object-fit: cover;
+}
+.a-year-withot {
+  margin: 0;
+}
+.a-year-withot-container {
+  position: absolute;
+  top: 144px;
+  left: 0;
+  line-height: 20px;
+}
+.rectangle-parent {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  height: 184px;
+  color: inherit;
+}
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--black);
+  width: 205px;
+  height: 128px;
+}
+.frame-inner {
+  background-color: var(--purple);
+}
+.rectangle-container {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  height: 184px;
+  text-align: center;
+  color: inherit;
+}
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-57xl);
+}
+.frame-child3,
+.frame-parent {
+  position: absolute;
+  border-radius: var(--br-5xs);
+}
+.frame-child3 {
+  top: 0;
+  left: 0;
+  background-color: var(--text);
+  width: 205px;
+  height: 128px;
+}
+.frame-parent {
+  top: 113px;
+  left: 382px;
+  background-color: var(--color-gray-500);
+  border: 1px solid var(--orange);
+  box-sizing: border-box;
+  width: 940px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 46px 71px 0 72px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 30px;
+  font-size: var(--font-size-smi);
+}
+.songs {
+  text-decoration: none;
+  color: var(--color-gray-100);
+}
+.album,
+.now-playing,
+.songs {
+  position: relative;
+  line-height: 20px;
+}
+.album {
+  color: var(--white);
+}
+.now-playing {
+  text-decoration: none;
+  color: inherit;
+}
+.songs-parent {
+  position: absolute;
+  top: 85px;
+  left: 382px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  color: var(--color-gray-600);
+}
+.icbaseline-favorite-border-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.favorite-songs {
+  position: relative;
+  line-height: 20px;
+}
+.carbonplaylist-parent,
+.icbaseline-favorite-border-parent,
+.icon-park-outlinefind-parent {
+  position: absolute;
+  top: 431px;
+  left: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.carbonplaylist-parent,
+.icon-park-outlinefind-parent {
+  top: 306px;
+  left: 26px;
+}
+.icon-park-outlinefind-parent {
+  top: 382px;
+  cursor: pointer;
+}
+.settings {
+  position: relative;
+}
+.akar-iconsmusic-album-parent,
+.bytesizesettings-parent {
+  position: absolute;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.bytesizesettings-parent {
+  top: 556px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-effra-trial);
+}
+.akar-iconsmusic-album-parent {
+  top: 210px;
+  cursor: pointer;
+}
+.bxsplaylist-icon {
+  position: relative;
+  width: 24px;
+  height: 22px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.bxsplaylist-parent {
+  top: 259px;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--color-black);
+}
+.bxsplaylist-parent,
+.bxuser-circle-parent,
+.clarityhome-solid-parent {
+  position: absolute;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.clarityhome-solid-parent {
+  top: 161px;
+  width: 200px;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.bxuser-circle-parent {
+  top: 480px;
+  justify-content: center;
+}
+.frame-child9 {
+  position: absolute;
+  top: 258px;
+  left: 0;
+  background-color: var(--color-black);
+  width: 8px;
+  height: 24px;
+}
+.i-1-1 {
+  position: absolute;
+  top: 32px;
+  left: 88px;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+.frame-parent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#609, #609), #609;
+  width: 263px;
+  height: 905px;
+}
+.icbaseline-favorite-border-group {
+  position: absolute;
+  top: 403px;
+  left: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+  cursor: pointer;
+}
+.create-playlist1 {
+  position: relative;
+  font-size: var(--h1-size);
+  line-height: 20px;
+  font-family: var(--h2-24);
+  color: var(--white);
+  text-align: left;
+}
+.carbonplaylist-group,
+.icon-park-outlinefind-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 306px;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.icon-park-outlinefind-group {
+  top: 354px;
+}
+.settings1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-effra-trial);
+  color: var(--white);
+  text-align: left;
+}
+.bytesizesettings-group {
+  background-color: transparent;
+  position: absolute;
+  top: 504px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.akar-iconsmusic-album-group,
+.bytesizesettings-group,
+.clarityhome-solid-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  left: 26px;
+  gap: var(--gap-xl);
+}
+.akar-iconsmusic-album-group {
+  background-color: transparent;
+  position: absolute;
+  top: 210px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.clarityhome-solid-group {
+  top: 161px;
+  width: 103px;
+  height: 24px;
+  justify-content: flex-start;
+}
+.album-hi-fi-new-child,
+.bxuser-circle-group,
+.clarityhome-solid-group {
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bxuser-circle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 453px;
+  left: 26px;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.album-hi-fi-new-child {
+  border: 2px solid var(--color-gainsboro);
+  font-family: var(--h2-24);
+  font-size: var(--h1-size);
+  top: 27px;
+  left: 380px;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  width: 586px;
+  height: 44px;
+  padding: var(--padding-5xl) var(--padding-base);
+  justify-content: flex-start;
+}
+.album-hi-fi-new-item {
+  position: absolute;
+  top: 798px;
+  left: 382px;
+  width: 940px;
+  height: 60px;
+}
+.div,
+.group-icon {
+  flex: 1;
+  position: relative;
+}
+.div {
+  line-height: 20px;
+}
+.group-icon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 8.6px;
+}
+.parent {
+  position: absolute;
+  top: 770px;
+  left: 382px;
+  width: 940px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-mini);
+}
+.frame-child11 {
+  position: relative;
+  width: 855px;
+  height: 8.6px;
+  flex-shrink: 0;
+}
+.group {
+  position: absolute;
+  top: 770px;
+  left: 382px;
+  width: 940px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-mini);
+}
+.carbonnotification-icon {
+  position: absolute;
+  top: 35px;
+  left: 1287px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.album-hi-fi-new-inner,
+.component-child {
+  position: absolute;
+  top: 27px;
+  left: 1354px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.component-child {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipse-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 27px;
+  left: 1354px;
+  width: 40px;
+  height: 40px;
+}
+.album-hi-fi-new {
+  position: relative;
+  width: 100%;
+  height: 905px;
+  overflow: hidden;
+  background-image: url(./public/now-playing-hifi-new@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--white);
+  font-family: var(--h2-24);
+}

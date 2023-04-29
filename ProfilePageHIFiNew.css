@@ -1,0 +1,485 @@
+.icon,
+.profile-page-hi-fi-new-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 119px;
+  object-fit: cover;
+}
+.profile-page-hi-fi-new-child {
+  top: 27px;
+  left: 1348px;
+  width: 40px;
+  height: 40px;
+}
+.frame-child {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.victoria-adams {
+  position: relative;
+  line-height: 20px;
+}
+.b {
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--orange);
+}
+.playlist-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: var(--h1-size);
+}
+.victoria-adams-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 116px;
+  left: 312px;
+  width: 452px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.icbaseline-favorite-border-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.carbonplaylist-parent,
+.icbaseline-favorite-border-parent,
+.icon-park-outlinefind-parent {
+  position: absolute;
+  top: 431px;
+  left: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.carbonplaylist-parent,
+.icon-park-outlinefind-parent {
+  top: 306px;
+  left: 26px;
+}
+.icon-park-outlinefind-parent {
+  top: 382px;
+  cursor: pointer;
+}
+.settings {
+  position: relative;
+}
+.akar-iconsmusic-album-parent,
+.bytesizesettings-parent {
+  position: absolute;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.bytesizesettings-parent {
+  top: 556px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-effra-trial);
+}
+.akar-iconsmusic-album-parent {
+  top: 210px;
+  cursor: pointer;
+}
+.bxsplaylist-icon {
+  position: relative;
+  width: 24px;
+  height: 22px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.bxsplaylist-parent {
+  top: 259px;
+  justify-content: center;
+  cursor: pointer;
+}
+.bxsplaylist-parent,
+.bxuser-circle-parent,
+.clarityhome-solid-parent {
+  position: absolute;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.clarityhome-solid-parent {
+  top: 161px;
+  width: 200px;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.bxuser-circle-parent {
+  top: 480px;
+  justify-content: center;
+  color: var(--color-black);
+}
+.frame-item {
+  position: absolute;
+  top: 478px;
+  left: 0;
+  background-color: var(--color-black);
+  width: 8px;
+  height: 24px;
+}
+.i-1-1 {
+  position: absolute;
+  top: 32px;
+  left: 88px;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+.frame-group {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#609, #609), #609;
+  width: 263px;
+  height: 905px;
+  font-size: var(--h1-size);
+}
+.carbonnotification-icon,
+.component-child {
+  position: absolute;
+  top: 35px;
+  left: 1281px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.component-child {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.profile-page-hi-fi-new-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 27px;
+  left: 1348px;
+  width: 40px;
+  height: 40px;
+}
+.recently-played-artist {
+  position: absolute;
+  top: 248px;
+  left: 322px;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+  width: 326px;
+}
+.favorite-songs1 {
+  position: relative;
+  font-size: var(--h1-size);
+  line-height: 20px;
+  font-family: var(--h2-24);
+  color: var(--white);
+  text-align: left;
+}
+.carbonplaylist-group,
+.icbaseline-favorite-border-group,
+.icon-park-outlinefind-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 397px;
+  left: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.carbonplaylist-group,
+.icon-park-outlinefind-group {
+  top: 306px;
+  left: 26px;
+}
+.icon-park-outlinefind-group {
+  top: 352px;
+}
+.settings1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-effra-trial);
+  color: var(--white);
+  text-align: left;
+}
+.akar-iconsmusic-album-group,
+.bxsplaylist-group,
+.bytesizesettings-group,
+.clarityhome-solid-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 491px;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.akar-iconsmusic-album-group,
+.bxsplaylist-group,
+.clarityhome-solid-group {
+  top: 210px;
+}
+.bxsplaylist-group,
+.clarityhome-solid-group {
+  top: 259px;
+}
+.clarityhome-solid-group {
+  top: 161px;
+  width: 200px;
+  justify-content: flex-start;
+}
+.user-profile1 {
+  position: relative;
+  font-size: var(--h1-size);
+  line-height: 20px;
+  font-family: var(--h2-24);
+  color: var(--color-black);
+  text-align: left;
+}
+.bxuser-circle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 443px;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.frame-inner {
+  position: absolute;
+  top: 444px;
+  left: 0;
+  background-color: var(--color-black);
+  width: 8px;
+  height: 24px;
+}
+.frame-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#609, #609), #609;
+  width: 263px;
+  height: 905px;
+}
+.profile-page-hi-fi-new-item {
+  border: 2px solid var(--color-gainsboro);
+  font-family: var(--h2-24);
+  font-size: var(--h1-size);
+  background-color: transparent;
+  position: absolute;
+  top: 27px;
+  left: 307px;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  width: 586px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+}
+.k-followers,
+.limoblaze {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+.k-followers {
+  color: var(--orange);
+}
+.limoblaze-parent {
+  position: absolute;
+  top: 164px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.component-15-child,
+.component-15-inner {
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+.component-15-inner {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-300);
+}
+.component-15-child {
+  height: 55%;
+  width: 98.65%;
+  top: 0.77%;
+  bottom: 44.23%;
+  left: 1.35%;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-15,
+.component-16,
+.component-17 {
+  position: absolute;
+  top: 324px;
+  left: 590px;
+  width: 222px;
+  height: 260px;
+}
+.component-16,
+.component-17 {
+  text-decoration: none;
+  left: 869px;
+  color: inherit;
+}
+.component-16 {
+  left: 295px;
+}
+.k-followers3,
+.limoblaze3 {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.k-followers3 {
+  color: var(--orange);
+}
+.component-18,
+.component-20,
+.component-21,
+.component-22 {
+  text-decoration: none;
+  position: absolute;
+  top: 324px;
+  left: 0;
+  width: 230px;
+  height: 260px;
+  color: inherit;
+}
+.component-20,
+.component-21,
+.component-22 {
+  top: 0;
+  width: 231.04px;
+}
+.component-20,
+.component-21 {
+  left: 295.04px;
+}
+.component-21 {
+  left: 590.07px;
+}
+.frame-a,
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+.rectangle-icon {
+  height: 56.92%;
+  width: 99.57%;
+  bottom: 43.08%;
+  left: 0.43%;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-a {
+  text-decoration: none;
+  height: 44.52%;
+  width: 20.93%;
+  bottom: 55.48%;
+  left: 79.07%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-300);
+  color: inherit;
+}
+.component-15-parent {
+  position: absolute;
+  top: 306px;
+  left: 312px;
+  width: 1099px;
+  height: 584px;
+  font-size: var(--h1-size);
+  color: var(--color-gainsboro);
+}
+.profile-page-hi-fi-new {
+  position: relative;
+  width: 100%;
+  height: 905px;
+  overflow: hidden;
+  background-image: url(./public/now-playing-hifi-new@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--h2-24-size);
+  color: var(--white);
+  font-family: var(--h2-24);
+}
