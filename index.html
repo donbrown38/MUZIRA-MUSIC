@@ -14,16 +14,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"/>
     <title>MUZIRA</title>
-
-
-  
   </head>
   
   <body>
-    <!-- Nav page -->
-    <div class="landing-page-hi-fi">
-      <nav>
-        <nav>
+    <header>
+      <img class="logo" alt="" src="./public/logo.png"/>
+
+      <nav >
+        <div class="navbody">
+          <img src="./public/bar.png" alt="" id="openNav">
+        </div>
+        <ul id="nav">
+          <img src="./public/close.png" alt="" id="closeNav">
           <li>
             <button href="HomePageHiFi.html" id="homebtn">Home</button>
           </li>
@@ -31,38 +33,37 @@
             <button href="#" id="about-us">About us</button>
           </li>
           <li>
-            <button class="log-in-wrapper" id="log in">
+            <div id="log in">
               <a href="LoginPageHiFi.html" class="log-in2">Log In</a>
-            </button>
+            </div>
           </li>
           <li>
-            <div class="sign-up-container" id="frameContainer">
+            <div id="frameContainer">
               <a href="SignUpPageHiFi.html" class="sign-up2">Sign Up</a>
             </div>
           </li>
-        </nav>
+        </ul>
       </nav>
+    </header>
 
-  <!-- Page start     -->
-      <div class="explore-your-music">
-        Explore your music activities and generate new and exciting playlists
-        without having to open your Muzira app at all
+    <main>
+      <div class="words">
+        <b class="discover-your-moods">Discover your moods</b>
+        <div class="explore-your-music">
+          Explore your music activities and generate new and exciting playlists
+          without having to open your Muzira app at all
+        </div>
+        <div class="continue-with-muzira-wrapper words-btn" autofocus id="frameButton1">
+          <a class="continue-with-muzira" href="LoginPageHiFi.html">Continue with Muzira</a>
+        </div>
       </div>
+      <div class="images">
+        <img class="landing-page-hi-fi-child1" alt="" src="./public/ellipse-12@2x.png"/>
+        <img class="landing-page-hi-fi-child2" alt="" src="./public/ellipse-13@2x.png"/>
+        <img class="landing-page-hi-fi-child3" alt="" src="./public/ellipse-141@2x.png"/>
+      </div>
+    </main>
 
-      <b class="discover-your-moods">Discover your moods</b>
-      
-      <img class="landing-page-hi-fi-child1" alt="" src="./public/ellipse-12@2x.png"/>
-
-      <img class="landing-page-hi-fi-child2" alt="" src="./public/ellipse-13@2x.png"/>
-
-      <img class="landing-page-hi-fi-child3" alt="" src="./public/ellipse-141@2x.png"/>
-
-      <img class="logo" alt="" src="./public/logo.png"/>
-
-      <button class="continue-with-muzira-wrapper" autofocus id="frameButton1">
-        <a class="continue-with-muzira" href="LoginPageHiFi.html">Continue with Muzira</a>
-      </button>
-    </div>
 
 <script>
 const myButton = document.getElementById('homebtn');
@@ -77,6 +78,30 @@ myButton.addEventListener('click', function() {
 about.addEventListener('click', function() {
   
   alert('Please log in or sign up to continue');
+});
+
+const openBtn = document.getElementById('openNav');
+const closeBtn = document.getElementById('closeNav');
+const navBody = document.getElementById('nav');
+
+openBtn.addEventListener('click', function () {
+  if (navBody.style.display == "none"){
+    navBody.style.display = "block";
+    openBtn.style.display = "none";
+  }else{
+    navBody.style.display = "none";
+    openBtn.style.display = "block";
+  }
+});
+
+closeBtn.addEventListener('click', function () {
+  if (navBody.style.display == "block"){
+    navBody.style.display = "none";
+    openBtn.style.display = "block";
+  }else{
+    navBody.style.display = "block";
+    openBtn.style.display = "none";
+  }
 });
 
 
