@@ -15,76 +15,11 @@
   <body>
     <div class="now-playing-hi-fi-new">
       <img class="now-playing-hi-fi-new-child" alt="" src="./public/frame-47@2x.png"/>
-
-      <div class="now-playing-hi-fi-new-item"></div>
-      <div class="div">0:00</div>
-      <div class="div1">4:05</div>
-      <img class="now-playing-hi-fi-new-inner" alt="" src="./public/group-121.svg"/>
-
-      <div class="carbonnotification-parent">
-        <img class="carbonnotification-icon" alt="" src="./public/carbonnotification1.svg"/>
-
-        <img class="frame-child" alt="" src="./public/ellipse-46@2x.png" />
-      </div>
-      <div class="frame-parent">
-        <div class="icbaseline-favorite-border-parent">
-          <img class="carbonnotification-icon" alt="" src="./public/icbaselinefavoriteborder.svg"/>
-
-          <div class="favorite-songs">Favorite songs</div>
-        </div>
-        <div class="carbonplaylist-parent">
-          <img class="carbonnotification-icon" alt="" src="./public/carbonplaylist.svg"/>
-
-          <div class="favorite-songs">Create Playlist</div>
-        </div>
-        <div class="icon-park-outlinefind-parent" id="frameContainer3">
-          <img class="carbonnotification-icon" alt="" src="./public/iconparkoutlinefind.svg"/>
-
-          <div class="favorite-songs">Browse categories</div>
-        </div>
-        <div class="bytesizesettings-parent">
-          <img class="carbonnotification-icon" alt="" src="./public/bytesizesettings.svg"/>
-
-          <div class="settings">Settings</div>
-        </div>
-        <div class="akar-iconsmusic-album-parent" id="frameContainer5">
-          <img class="carbonnotification-icon" alt="" src="./public/akariconsmusicalbum1.svg"/>
-
-          <div class="favorite-songs">Library</div>
-        </div>
-        <div class="bxsplaylist-parent" id="frameContainer6">
-          <img  class="bxsplaylist-icon"  alt="" src="./public/bxsplaylist1.svg"/>
-
-          <div class="favorite-songs">Playlist</div>
-        </div>
-        <div class="clarityhome-solid-parent" id="frameContainer7">
-          <img  class="carbonnotification-icon" alt="" src="./public/clarityhomesolid.svg"/>
-
-          <div class="favorite-songs">Home</div>
-        </div>
-        <div class="bxuser-circle-parent" id="frameContainer8">
-          <img class="carbonnotification-icon"  alt="" src="./public/bxusercircle.svg"/>
-
-          <div class="favorite-songs">User profile</div>
-        </div>
-        <div class="frame-item"></div>
-        <img class="i-1-1" alt="" src="./public/i-1-1@2x.png" />
-      </div>
       <div class="songs-parent">
         <a class="songs" id="songs">Songs</a>
         <a class="album" id="album">Album</a>
         <div class="now-playing">Now Playing</div>
         <a class="album" id="favouriteSongs">Favourite Songs</a>
-      </div>
-      <img class="group-icon" alt="" src="./public/group-114.svg" />
-
-      <div class="div">0:00</div>
-      <div class="div1">4:05</div>
-      <div class="songs-parent">
-        <a class="songs" id="songs1">Songs</a>
-        <a class="album" id="album1">Album</a>
-        <a class="now-playing1">Now Playing</a>
-        <a class="album" id="favouriteSongs1">Favourite Songs</a>
       </div>
       <a class="carbonnotification-group">
         <img class="carbonnotification-icon"  alt="" src="./public/carbonnotification1.svg"/>
@@ -138,13 +73,9 @@
         <img class="i-1-1" alt="" src="./public/i-1-1@2x.png" />
       </div>
       <img  class="now-playing-hi-fi-new-child"  alt="" src="./public/frame-47@2x.png"/>
-
-      <audio class="wrapper" controls>
-        <source />
-      </audio>
       <input class="frame-input"  type="search" placeholder="Artist, Song, Lyrics and more"/>
 
-      <audio class="container" controls>
+      <audio id="my-audio" class="container" controls loop>
         <source src="./public/wizkid_ft_tems_-_essence_luvmp.com_.mp3" />
       </audio>
       <div class="essence-wizkid-ft-tems-wrapper">
@@ -152,74 +83,39 @@
       </div>
     </div>
 
-    <script>
-      var frameContainer3 = document.getElementById("frameContainer3");
-      if (frameContainer3) {
-        frameContainer3.addEventListener("click", function (e) {
-          // Please sync "Search Page Hi-Fi" to the project
-        });
-      }
-      
-      var frameContainer5 = document.getElementById("frameContainer5");
-      if (frameContainer5) {
-        frameContainer5.addEventListener("click", function (e) {
-          // Please sync "Library Page HI-Fi" to the project
-        });
-      }
-      
-      var frameContainer6 = document.getElementById("frameContainer6");
-      if (frameContainer6) {
-        frameContainer6.addEventListener("click", function (e) {
-          // Please sync "Playlist Hi-Fi" to the project
-        });
-      }
-      
-      var frameContainer7 = document.getElementById("frameContainer7");
-      if (frameContainer7) {
-        frameContainer7.addEventListener("click", function (e) {
-          // Please sync "Home Page Hi-Fi" to the project
-        });
-      }
-      
-      var frameContainer8 = document.getElementById("frameContainer8");
-      if (frameContainer8) {
-        frameContainer8.addEventListener("click", function (e) {
-          // Please sync "Profile page HI-Fi" to the project
-        });
-      }
-      
+    <script>      
       var songs = document.getElementById("songs");
       if (songs) {
         songs.addEventListener("click", function (e) {
-          window.location.href = "./LibraryPageHIFi.html";
+          window.location.href = "./LibraryPageHiFi.html";
         });
       }
       
       var album = document.getElementById("album");
       if (album) {
         album.addEventListener("click", function (e) {
-          // Please sync "Album HI-Fi new" to the project
+          window.location.href = "./AlbumHIFiNew.html";
         });
       }
       
       var favouriteSongs = document.getElementById("favouriteSongs");
       if (favouriteSongs) {
         favouriteSongs.addEventListener("click", function (e) {
-          // Please sync "Playlist Hi-Fi new" to the project
+          window.location.href = "./PlaylistHiFiNew.html";
         });
       }
       
       var songs1 = document.getElementById("songs1");
       if (songs1) {
         songs1.addEventListener("click", function (e) {
-          window.location.href = "./LibraryPageHIFi.html";
+          window.location.href = "./LibraryPageHiFi.html";
         });
       }
       
       var album1 = document.getElementById("album1");
       if (album1) {
         album1.addEventListener("click", function (e) {
-          // Please sync "Album HI-Fi new" to the project
+          window.location.href = "./AlbumHIFiNew.html";
         });
       }
       
@@ -233,42 +129,42 @@
       var ellipseIcon1 = document.getElementById("ellipseIcon1");
       if (ellipseIcon1) {
         ellipseIcon1.addEventListener("click", function (e) {
-          // Please sync "Search Page Hi-Fi new" to the project
+          window.location.href = "./SearchPageHiFiNew.html";
         });
       }
       
       var ellipseButton = document.getElementById("ellipseButton");
       if (ellipseButton) {
         ellipseButton.addEventListener("click", function (e) {
-          // Please sync "Profile page HI-Fi new" to the project
+          window.location.href = "./ProfilePageHiFiNew.html"
         });
       }
       
       var frameButton = document.getElementById("frameButton");
       if (frameButton) {
         frameButton.addEventListener("click", function (e) {
-          // Please sync "Album HI-Fi new" to the project
+          window.location.href = "./AlbumHIFiNew.html";
         });
       }
       
       var frameButton1 = document.getElementById("frameButton1");
       if (frameButton1) {
         frameButton1.addEventListener("click", function (e) {
-          // Please sync "Playlist Hi-Fi new" to the project
+          window.location.href = "./PlaylistHiFiNew.html"
         });
       }
       
       var frameButton2 = document.getElementById("frameButton2");
       if (frameButton2) {
         frameButton2.addEventListener("click", function (e) {
-          // Please sync "Search Page Hi-Fi new" to the project
+          window.location.href = "./SearchPageHiFiNew.html";
         });
       }
       
       var frameButton3 = document.getElementById("frameButton3");
       if (frameButton3) {
         frameButton3.addEventListener("click", function (e) {
-          // Please sync "Profile page HI-Fi new" to the project
+          window.locaton.href = "./ProfilePageHiFiNew.html";
         });
       }
       
@@ -282,7 +178,7 @@
       var frameButton5 = document.getElementById("frameButton5");
       if (frameButton5) {
         frameButton5.addEventListener("click", function (e) {
-          // Please sync "Playlist Hi-Fi new" to the project
+          window.location.href = "./PlaylistHiFiNew.html";
         });
       }
       
@@ -296,7 +192,7 @@
       var frameButton7 = document.getElementById("frameButton7");
       if (frameButton7) {
         frameButton7.addEventListener("click", function (e) {
-          // Please sync "Profile page HI-Fi new" to the project
+          window.location.href = "./ProfilePageHiFiNew.html";
         });
       }
       </script>

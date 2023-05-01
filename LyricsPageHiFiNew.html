@@ -15,10 +15,28 @@
   </head>
   <body>
     <div class="lyrics-page-hi-fi-new">
-      <img class="icon" alt="" src="./public/3-2@2x.png" />
-
-      <b class="lyrics">Lyrics</b>
-      <img  class="carbonnotification-icon" alt="" src="./public/carbonnotification1.svg"/>
+        <div moving-text-container>
+          <b class="lyrics">You shout it out
+            But I can't hear a word you say
+            I'm talking loud, not saying much
+            I'm criticized, but all your bullets ricochet
+            Shoot me down, but I get up
+            I'm bulletproof, nothing to lose
+            Fire away, fire away
+            Ricochet, you take your aim
+            Fire away, fire away
+            You shoot me down, but I won't fall
+            I am titanium
+            You shoot me down, but I won't fall
+            I am titanium
+            I am titanium
+            I am titanium
+            Cut me down
+            But it's you who'll have further to fall
+            Ghost town and haunted love
+            Raise your voice, sticks and stones may break my bones
+            Talking loud, not saying much</b>
+        </div>
 
       <div class="rectangle-parent">
         <div class="frame-child"></div>
@@ -41,49 +59,10 @@
           <img  class="component-child" alt="" src="./public/ellipse-46@2x.png" id="ellipseIcon"/>
         </button>
       </div>
-      <div class="frame-parent">
-        <div class="icbaseline-favorite-border-parent">
-          <img class="icbaseline-favorite-border-icon" alt="" src="./public/icbaselinefavoriteborder.svg"/>
 
-          <div class="favorite-songs">Favorite songs</div>
+        <div class="frame-inner">
+          <input class="frame-inner" type="text" alt="" placeholder="lyrics">
         </div>
-        <div class="carbonplaylist-parent">
-          <img class="icbaseline-favorite-border-icon" alt="" src="./public/carbonplaylist.svg"/>
-
-          <div class="favorite-songs">Create Playlist</div>
-        </div>
-        <div class="icon-park-outlinefind-parent" id="frameContainer6">
-          <img  class="icbaseline-favorite-border-icon" alt="" src="./public/iconparkoutlinefind.svg"/>
-
-          <div class="favorite-songs">Browse categories</div>
-        </div>
-        <div class="bytesizesettings-parent">
-          <img  class="icbaseline-favorite-border-icon" alt="" src="./public/bytesizesettings.svg"/>
-
-          <div class="settings">Settings</div>
-        </div>
-        <div class="akar-iconsmusic-album-parent" id="frameContainer8">
-          <img class="icbaseline-favorite-border-icon" alt="" src="./public/akariconsmusicalbum.svg"/>
-
-          <div class="favorite-songs">Library</div>
-        </div>
-        <div class="bxsplaylist-parent" id="frameContainer9">
-          <img class="bxsplaylist-icon" alt="" src="./public/bxsplaylist.svg" />
-
-          <div class="favorite-songs">Playlist</div>
-        </div>
-        <div class="clarityhome-solid-parent" id="frameContainer10">
-          <img class="icbaseline-favorite-border-icon" alt="" src="./public/clarityhomesolid.svg"/>
-
-          <div class="favorite-songs">Home</div>
-        </div>
-        <div class="bxuser-circle-parent" id="frameContainer11">
-          <img class="icbaseline-favorite-border-icon" alt="" src="./public/bxusercircle.svg"/>
-
-          <div class="favorite-songs">User profile</div>
-        </div>
-        <div class="frame-inner"></div>
-        <img class="i-1-1" alt="" src="./public/i-1-1@2x.png" />
       </div>
       <div class="frame-group">
         <button  class="icbaseline-favorite-border-group" autofocus id="frameButton">
@@ -129,17 +108,9 @@
         <div class="frame-inner"></div>
         <img class="i-1-1" alt="" src="./public/i-1-1@2x.png" />
       </div>
-      <div class="div">0:00</div>
-      <div class="div1">4:05</div>
-      <img class="lyrics-page-hi-fi-new-inner" alt="" src="./public/group-121.svg"/>
-
-      <img class="lyrics-page-hi-fi-new-inner"  alt=""  src="./public/group-121.svg"/>
-
-      <img class="lyrics-page-hi-fi-new-child1" alt=""  src="./public/group-114.svg"/>
-
       <div class="frame-container">
         <div class="frame-div" id="InputLyricfromJavascript"></div>
-        <audio class="wrapper" controls>
+        <audio class="wrapper" controls loop>
           <source src="./public/david_guetta_-_titanium_ft_sia_naijaremix.mp3"/>
         </audio>
       </div>
@@ -150,56 +121,23 @@
       var ellipseIcon = document.getElementById("ellipseIcon");
       if (ellipseIcon) {
         ellipseIcon.addEventListener("click", function (e) {
-          // Please sync "Profile page HI-Fi" to the project
+          window.location.href = "./ProfilePageHiFiNew.html";
+
         });
       }
       
       var ellipseButton = document.getElementById("ellipseButton");
       if (ellipseButton) {
         ellipseButton.addEventListener("click", function (e) {
-          // Please sync "Profile page HI-Fi new" to the project
+          window.location.href = "./ProfilePageHiFiNew.html";
         });
       }
       
-      var frameContainer6 = document.getElementById("frameContainer6");
-      if (frameContainer6) {
-        frameContainer6.addEventListener("click", function (e) {
-          // Please sync "Search Page Hi-Fi" to the project
-        });
-      }
-      
-      var frameContainer8 = document.getElementById("frameContainer8");
-      if (frameContainer8) {
-        frameContainer8.addEventListener("click", function (e) {
-          // Please sync "Library Page HI-Fi" to the project
-        });
-      }
-      
-      var frameContainer9 = document.getElementById("frameContainer9");
-      if (frameContainer9) {
-        frameContainer9.addEventListener("click", function (e) {
-          // Please sync "Playlist Hi-Fi" to the project
-        });
-      }
-      
-      var frameContainer10 = document.getElementById("frameContainer10");
-      if (frameContainer10) {
-        frameContainer10.addEventListener("click", function (e) {
-          // Please sync "Home Page Hi-Fi" to the project
-        });
-      }
-      
-      var frameContainer11 = document.getElementById("frameContainer11");
-      if (frameContainer11) {
-        frameContainer11.addEventListener("click", function (e) {
-          // Please sync "Profile page HI-Fi" to the project
-        });
-      }
       
       var frameButton = document.getElementById("frameButton");
       if (frameButton) {
         frameButton.addEventListener("click", function (e) {
-          // Please sync "Album HI-Fi new" to the project
+          window.location.href = "./AlbumHIFiNew.html";
         });
       }
       
@@ -213,21 +151,21 @@
       var frameButton2 = document.getElementById("frameButton2");
       if (frameButton2) {
         frameButton2.addEventListener("click", function (e) {
-          // Please sync "Search Page Hi-Fi new" to the project
+          window.location.href = "./SearchPageHiFiNew.html";
         });
       }
       
       var frameButton3 = document.getElementById("frameButton3");
       if (frameButton3) {
         frameButton3.addEventListener("click", function (e) {
-          // Please sync "Profile page HI-Fi new" to the project
+          window.location.href = "./ProfilePageHiFiNew.html";
         });
       }
       
       var frameButton4 = document.getElementById("frameButton4");
       if (frameButton4) {
         frameButton4.addEventListener("click", function (e) {
-          window.location.href = "./LibraryPageHIFi.html";
+          window.location.href = "./LibraryPageHiFi.html";
         });
       }
       
@@ -248,7 +186,7 @@
       var frameButton7 = document.getElementById("frameButton7");
       if (frameButton7) {
         frameButton7.addEventListener("click", function (e) {
-          // Please sync "Profile page HI-Fi new" to the project
+          window.location.href = "./ProfilePageHiFiNew.html";
         });
       }
       </script>

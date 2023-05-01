@@ -1,11 +1,13 @@
 .songs {
   color: var(--white);
+  cursor: pointer;
 }
 .album,
 .now-playing,
 .songs {
   position: relative;
   line-height: 20px;
+  cursor: pointer;
 }
 .now-playing {
   cursor: pointer;
@@ -20,6 +22,7 @@
   justify-content: flex-start;
   gap: var(--gap-13xl);
   color: var(--color-gray-600);
+  cursor: pointer;
 }
 .carbonnotification-icon {
   position: relative;
@@ -36,6 +39,8 @@
   object-fit: cover;
   cursor: pointer;
 }
+
+
 .carbonnotification-parent,
 .carbonplaylist-parent,
 .icbaseline-favorite-border-parent {
@@ -47,6 +52,10 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-24xl);
+  background-color: transparent;
+  box-shadow: none;
+  border: transparent;
+  box-sizing: none;
 }
 .carbonplaylist-parent,
 .icbaseline-favorite-border-parent {
@@ -208,11 +217,12 @@
 }
 .settings1 {
   position: relative;
-  font-size: var(--font-size-base);
+  font-size: var(--h1-size);
   font-family: var(--font-effra-trial);
   color: var(--white);
   text-align: left;
 }
+
 .bytesizesettings-group {
   cursor: pointer;
   border: 0;
@@ -305,8 +315,8 @@
 }
 .component-child {
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
   top: 0;
   right: 0;
   bottom: 0;
@@ -317,16 +327,7 @@
   object-fit: cover;
   cursor: pointer;
 }
-.ellipse-wrapper {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  width: 40px;
-  height: 40px;
-  flex-shrink: 0;
-}
+
 .carbonnotification-group {
   position: absolute;
   top: 0;
@@ -337,36 +338,28 @@
   justify-content: flex-start;
   gap: var(--gap-24xl);
 }
-.vector-icon {
-  position: relative;
-  width: 26px;
-  height: 26px;
-  flex-shrink: 0;
-}
-.vector-parent {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-8xs);
+
+
+.vector-parent1 {
   border: 2px solid var(--color-gainsboro);
+  font-family: var(--h2-24);
+  font-size: var(--h1-size);
+  background-color: transparent;
+  border-radius: var(--br-8xs);
+  top: 27px;
+  left: 340px;
   box-sizing: border-box;
-  width: 586px;
+  width: 700px;
   height: 44px;
   display: flex;
   flex-direction: row;
   padding: var(--padding-5xl) var(--padding-base);
   align-items: center;
   justify-content: flex-start;
-  gap: 26px;
-  color: #7a7a7a;
+  color: #fff;
+  text-decoration: none;
 }
-.wrapper {
-  position: absolute;
-  top: 771px;
-  left: 3px;
-  width: 940px;
-  height: 60px;
-}
+
 .image-7-icon {
   position: relative;
   border-radius: var(--br-5xs);
@@ -375,19 +368,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
-.image-7-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-499981xl);
-  background-color: var(--white);
-  width: 60.2px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
+
 .essence,
 .wizkid-ft-tems {
   position: relative;
@@ -631,17 +612,7 @@
   height: 616px;
   font-size: var(--h2-24-size);
 }
-.div10,
-.div11 {
-  position: absolute;
-  top: 734px;
-  left: 3px;
-  font-size: var(--font-size-mini);
-  line-height: 20px;
-}
-.div11 {
-  left: 911px;
-}
+
 .group-audio {
   position: absolute;
   top: 739.2px;
@@ -656,6 +627,7 @@
   left: 379px;
   width: 1015px;
   height: 831px;
+  cursor: pointer;
 }
 .frame-group {
   top: 0;
@@ -665,15 +637,70 @@
 }
 .library-page-hi-fi-new {
   position: relative;
-  width: 100%;
   height: 905px;
   overflow: hidden;
-  background-image: url(./public/library-page-hifi-new@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   text-align: left;
   font-size: var(--h1-size);
   color: var(--white);
   font-family: var(--h2-24);
+  cursor: pointer;
+}
+
+
+/* Audio screen control  */
+
+.wrappernew {
+  position: absolute;
+  top: 771px;
+  left: 3px;
+  width: 940px;
+  height: 60px;
+}
+
+.wrappernew {
+background-color: #660099;
+border-radius: 10px;
+box-shadow: 0px 0px 0px 04px rgba(73, 8, 106, 0.5);
+}
+
+.wrappernew::-webkit-media-controls-panel {
+background-color: #660099;
+border-radius: none;
+border: none;
+box-sizing: border-box;
+box-shadow: none;
+}
+
+.wrappernew::-webkit-media-controls-play-button {
+background-color: rgb(255, 255, 255);
+color:black;
+border-radius: 50%;
+}
+
+.wrappernew::-webkit-media-controls-timeline {
+height: 6px;
+background-color: transparent;
+border: none;
+}
+
+.wrappernew::-webkit-media-controls-current-time-display,
+.wrappernew::-webkit-media-controls-time-remaining-display {
+color: rgb(255, 255, 255);
+}
+
+.wrappernew::-webkit-media-controls-volume-slider {
+background-color: #609;
+height: 6px;
+}
+
+.wrappernew::-webkit-media-controls-mute-button {
+background-color: white;
+color:black;
+border-radius: 50%;
+}
+
+.wrappernew::-webkit-media-controls-fullscreen-button {
+background-color: white;
+color:black;
+border-radius: 50%; 
 }

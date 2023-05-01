@@ -68,18 +68,7 @@
 .frame-inner {
   top: 456px;
 }
-.container {
-  position: absolute;
-  top: 682px;
-  left: 0;
-  width: 940px;
-  height: 60px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 .rectangle-parent {
   position: absolute;
   top: 121px;
@@ -116,6 +105,7 @@
 .scatta-scatta-fave-container {
   position: relative;
   line-height: 20px;
+  cursor: pointer;
 }
 .frame-a,
 .rectangle-container,
@@ -132,6 +122,7 @@
   justify-content: flex-start;
   gap: var(--gap-11xs);
   color: inherit;
+  cursor: pointer;
 }
 .frame-a,
 .rectangle-container {
@@ -167,6 +158,7 @@
   justify-content: flex-start;
   gap: var(--gap-11xs);
   color: inherit;
+  cursor: pointer;
 }
 .rectangle-parent2,
 .rectangle-parent3,
@@ -270,11 +262,12 @@
   width: 907px;
   height: 626px;
   font-size: var(--font-size-smi);
+  cursor: pointer;
 }
 .frame-input {
   border: 2px solid var(--color-gainsboro);
   font-family: var(--h2-24);
-  font-size: var(--h1-size);
+  font-size: 15px;
   background-color: transparent;
   top: 27px;
   left: 340px;
@@ -287,6 +280,7 @@
   padding: var(--padding-5xl) var(--padding-base);
   align-items: center;
   justify-content: flex-start;
+  color: #fff;
 }
 .carbonnotification-lottieplayer {
   position: relative;
@@ -309,6 +303,7 @@
   object-fit: cover;
   cursor: pointer;
 }
+
 .ellipse-wrapper {
   cursor: pointer;
   border: 0;
@@ -462,7 +457,7 @@
   position: absolute;
   top: 7px;
   left: 46px;
-  font-size: var(--font-size-base);
+  font-size: var(--h1-size);
   font-family: var(--font-effra-trial);
   color: var(--white);
   text-align: left;
@@ -511,8 +506,6 @@
 }
 .home-page-hi-fi-sub-new {
   position: relative;
-  background-color: var(--color-black);
-  width: 100%;
   height: 905px;
   overflow: hidden;
   opacity: 0;
@@ -520,4 +513,67 @@
   font-size: var(--h1-size);
   color: var(--white);
   font-family: var(--h2-24);
+}
+
+/* Audio screen control  */
+
+.my-audio {
+    position: absolute;
+    top: 682px;
+    left: 0;
+    width: 940px;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+  
+.my-audio {
+  background-color: #609;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 04px rgba(73, 8, 106, 0.5);
+}
+
+.my-audio::-webkit-media-controls-panel {
+  background-color: #609;
+  border-radius: none;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+.my-audio::-webkit-media-controls-play-button {
+  background-color: rgb(255, 255, 255);
+  color:black;
+  border-radius: 50%;
+}
+
+.my-audio::-webkit-media-controls-timeline {
+  height: 6px;
+  background-color: transparent;
+  border: none;
+}
+
+.my-audio::-webkit-media-controls-current-time-display,
+.my-audio::-webkit-media-controls-time-remaining-display {
+  color: rgb(255, 255, 255);
+}
+
+.my-audio::-webkit-media-controls-volume-slider {
+  background-color: #609;
+  height: 6px;
+}
+
+.my-audio::-webkit-media-controls-mute-button {
+  background-color: white;
+  color:black;
+  border-radius: 50%;
+}
+
+.my-audio::-webkit-media-controls-fullscreen-button {
+  background-color: white;
+  color:black;
+  border-radius: 50%; 
 }

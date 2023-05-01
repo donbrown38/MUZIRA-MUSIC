@@ -278,7 +278,7 @@
 }
 .settings1 {
   position: relative;
-  font-size: var(--font-size-base);
+  font-size: var(--h1-size);
   font-family: var(--font-effra-trial);
   color: var(--white);
   text-align: left;
@@ -354,13 +354,7 @@
   width: 263px;
   height: 905px;
 }
-.wrapper {
-  position: absolute;
-  top: 775.2px;
-  left: 430px;
-  width: 855px;
-  height: 8.6px;
-}
+
 .container,
 .frame-input {
   position: absolute;
@@ -413,15 +407,79 @@
 }
 .now-playing-hi-fi-new {
   position: relative;
-  width: 100%;
   height: 905px;
   overflow: hidden;
-  background-image: url(./public/now-playing-hifi-new@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   text-align: left;
   font-size: var(--font-size-mini);
   color: var(--white);
   font-family: var(--h2-24);
+}
+
+.frame-input {
+  border: 2px solid var(--color-gainsboro);
+  font-family: var(--h2-24);
+  font-size: var(--h1-size);
+  background-color: transparent;
+  top: 27px;
+  left: 388px;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  width: 586px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+/* Audio screen control  */
+
+.container {
+background-color: #609;
+border-radius: 10px;
+box-shadow: 0px 0px 0px 04px rgba(73, 8, 106, 0.5);
+}
+
+.container::-webkit-media-controls-panel {
+background-color: #609;
+border-radius: none;
+border: none;
+box-sizing: border-box;
+box-shadow: none;
+}
+
+.container::-webkit-media-controls-play-button {
+background-color: rgb(255, 255, 255);
+color:black;
+border-radius: 50%;
+}
+
+.container::-webkit-media-controls-timeline {
+height: 6px;
+background-color: transparent;
+border: none;
+}
+
+.container::-webkit-media-controls-current-time-display,
+.container::-webkit-media-controls-time-remaining-display {
+color: rgb(255, 255, 255);
+}
+
+.container::-webkit-media-controls-volume-slider {
+background-color: #609;
+height: 6px;
+}
+
+.container::-webkit-media-controls-mute-button {
+background-color: white;
+color:black;
+border-radius: 50%;
+}
+
+.container::-webkit-media-controls-fullscreen-button {
+background-color: white;
+color:black;
+border-radius: 50%; 
 }

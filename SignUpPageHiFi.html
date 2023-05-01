@@ -14,14 +14,12 @@
   </head>
   
   <body>
-    <div class="sign-up-hi-fi">
+    
+      <!-- nav page -->
       <nav>
         <nav>
           <li>
-            <a href="#" class="home15">Home</a>
-          </li>
-          <li>
-            <a href="#" class="about-us">About us</a>
+            <img class="logo" alt="" src="./public/logo.png"/>
           </li>
           <li>
             <button class="log-in-wrapper" id="log in">
@@ -30,22 +28,23 @@
           </li>
           <li>
             <div class="sign-up-container" id="frameContainer">
-              <a href="SignUpHiFi.html" class="sign-up2">Sign Up</a>
+              <a href="SignUpPageHiFi.html" class="sign-up2">Sign Up</a>
             </div>
           </li>
         </nav>
       </nav>
 
 
-      <img class="sign-up-hi-fi-child" alt="" src="./public/group-28.svg" />
+    <!-- Page start -->
 
-      <img class="sign-up-hi-fi-item" alt="" src="./public/group-27.svg" />
-
-      <img class="sign-up-hi-fi-inner" alt="" src="./public/group-25.svg" />
-
-      <img class="group-icon" alt="" src="./public/group-26.svg" />
-
+    <div class="sign-up-hi-fi">
       <b class="sign-in-to">Sign in to Muzira</b>
+      <a class="google-removebg-preview-1-parent" href="https://www.gmail.com" target="_blank">
+        <img class="google-removebg-preview-1-icon"  alt=""  src="./public/googleremovebgpreview-1@2x.png"/>
+
+        <div class="continue-with-google">Continue With Google</div>
+      </a>
+
       <div class="vector-parent">
         <img class="frame-child" alt="" src="./public/vector-1.svg" />
 
@@ -54,11 +53,16 @@
         <div class="or">OR</div>
       </div>
 
-      <input class="frame-input" type="date" name="begin" placeholder="dd-mm-yyyy" value=""  min="1997-01-01" max="2030-12-31">
+      <input  class="sign-up-hi-fi-child5"  type="email"   placeholder="Email Address"  required/>
 
+      <input  class="sign-up-hi-fi-child6"  type="password" placeholder="Create Password" required/>
+
+      <input class="sign-up-hi-fi-child7" type="password"  placeholder="Confirm Password" required/>
+
+      <input class="sign-up-hi-fi-child8" type="text" placeholder="Enter Profile Name"  required/>
       <div class="what-is-your">What is your date of birth</div>
+      <input class="frame-input" type="date" name="begin" placeholder="dd-mm-yyyy" value=""  min="1997-01-01" max="2030-12-31">
       <div class="gender">Gender</div>
-      
       <label id="male">Male</label>
       <input class="male" type="radio" name="gender" value="male">
 
@@ -67,43 +71,54 @@
 
       <label id="prefer-not-to">Prefer not to say</label>
       <input class="prefer-not-to" type="radio" name="gender" value="prefer not to say">
-
-
-
       <div class="by-clicking-on">
         By clicking on sign-up you agree fully to the terms and conditions and privacy policy.
       </div>
+      <button class="sign-up-wrapper" autofocus id="signupbtn">
+        <div class="sign-up">SIGN UP</div>
+      </button>
       <div class="have-an-account">Have an account?</div>
       <a class="log-in"  href="LoginPageHiFi.html">
         <span class="log-in1">Log in</span>
         <span> </span>
       </a>
-      <input  class="sign-up-hi-fi-child5"  type="email"   placeholder="Email Address"  required/>
-
-      <input  class="sign-up-hi-fi-child6"  type="password" placeholder="Create Password" required/>
-
-      <input class="sign-up-hi-fi-child7" type="password"  placeholder="Confirm Password" required/>
-
-      <input class="sign-up-hi-fi-child8" type="text" placeholder="Enter Profile Name"  required/>
-
-      <a class="google-removebg-preview-1-parent" href="https://www.gmail.com" target="_blank">
-        <img class="google-removebg-preview-1-icon"  alt=""  src="./public/googleremovebgpreview-1@2x.png"/>
-
-        <div class="continue-with-google">Continue With Google</div>
-      </a>
-      <button class="sign-up-wrapper" autofocus id="signupbtn">
-        <div class="sign-up">SIGN UP</div>
-      </button>
-      <img class="i-3-3" alt="" src="./public/i-3-3@2x.png" id="i33" />
     </div>
 
     <script>
       var i33 = document.getElementById("i33");
       if (i33) {
         i33.addEventListener("click", function (e) {
-          // Please sync "Landing Page Hi-Fi" to the project
         });
       }
+
+
+const signUpButton = document.getElementById('signupbtn');
+
+
+// Add a click event listener to the sign-up button
+signUpButton.addEventListener('click', function() {
+  
+  // Get the input elements
+  const emailInput = document.querySelector('.sign-up-hi-fi-child5');
+  const passwordInput = document.querySelector('.sign-up-hi-fi-child6');
+  const confirmPasswordInput = document.querySelector('.sign-up-hi-fi-child7');
+  const profileNameInput = document.querySelector('.sign-up-hi-fi-child8');
+  const dateOfBirthInput = document.querySelector('.frame-input');
+  const genderInputs = document.querySelectorAll('input[name="gender"]');
+
+  // Check if all required fields have been filled out
+  if (emailInput.value && passwordInput.value && confirmPasswordInput.value &&
+      profileNameInput.value && dateOfBirthInput.value && 
+      (genderInputs[0].checked || genderInputs[1].checked || genderInputs[2].checked)) {
+    
+        // If all required fields have been filled out, allow the sign-up button to load to home page
+    window.location.href = "HomePageHiFi.html";
+  } else {
+    
+    // If any required fields are missing, display an error message
+    alert('Please fill out all required fields');
+  }
+});
       </script>
   </body>
 </html>

@@ -468,7 +468,7 @@
 }
 .settings1 {
   position: relative;
-  font-size: var(--font-size-base);
+  font-size: var(--h1-size);
   font-family: var(--font-effra-trial);
   color: var(--white);
   text-align: left;
@@ -533,23 +533,8 @@
   height: 905px;
   color: var(--color-black);
 }
-.vector-icon {
-  position: relative;
-  width: 26px;
-  height: 26px;
-  flex-shrink: 0;
-}
+
 .artist-song-lyrics {
-  border: 0;
-  font-family: var(--h2-24);
-  font-size: var(--h1-size);
-  background-color: transparent;
-  position: relative;
-  line-height: 20px;
-  color: var(--color-gray-200);
-  text-align: left;
-}
-.vector-parent {
   position: absolute;
   top: 27px;
   left: 287px;
@@ -564,6 +549,10 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-7xl);
+  background-color: transparent;
+  color: #fff;
+  font-family: var(--h2-24);
+  font-size: 15px;
 }
 .view-more {
   position: relative;
@@ -572,6 +561,7 @@
   font-family: var(--h2-24);
   color: var(--white);
   text-align: left;
+  font-weight: 400;
 }
 .view-more-wrapper {
   cursor: pointer;
@@ -592,8 +582,6 @@
 }
 .playlist-hi-fi-new {
   position: relative;
-  background-color: var(--color-black);
-  width: 100%;
   height: 905px;
   overflow: hidden;
   text-align: left;

@@ -15,18 +15,12 @@
   </head>
   <body>
     <div class="login-page-hi-fi">
-      <img class="login-page-hi-fi-child" alt="" src="./public/frame-64login.svg"/>
+      <img class="login-page-hi-fi-child" id="logo" alt="" src="./public/logo.png"/>
       
       <nav class="allpage">
         <nav>
           <li>
-            <a href="#" class="home15">Home</a>
-          </li>
-          <li>
-            <a href="#" class="about-us">About us</a>
-          </li>
-          <li>
-            <button class="log-in-wrapper" id="log in">
+            <button class="log-in-wrapper" id="log-in">
               <a href="LoginPageHiFi.html" class="log-in2">Log In</a>
             </button>
           </li>
@@ -39,13 +33,11 @@
       </nav>
 
         <b class="login-to-muzira">Login to Muzira</b>
-        <div class="login-wrapper" id="popupframeContainer">
-          <div class="login">LOGIN</div>
-        </div>
+        
         <div class="google-removebg-preview-1-group">
           <img  class="google-removebg-preview-1-icon1"  alt=""  src="./public/googleremovebgpreview-11@2x.png"/>
   
-          <div class="continue-with-google1">Continue With Google</div>
+          <div class="continuewithgoogle1">Continue With Google</div>
         </div>
         <div class="vector-parent3">  <img class="frame-child43" alt="" src="./public/vector-7.svg"/>
           <div class="or1">or</div>
@@ -54,21 +46,44 @@
         <div class="forgot-password">Forgot Password?</div>
         <div class="dont-have-an-container">
           <span>Don’t have an account? </span>
-          <span class="sign-up1">Sign up</span>
+          <a class="sign-up1" href="SignUpPageHiFi.html" >Sign up</a>
           <span> </span>
         </div>
-        <input type="email" class="email-address-wrapper" name="email" placeholder="Email">
-        <input type="password" class="password-wrapper" name="password" placeholder="Password" autofocus id="btn">
+
+        <form id="loginForm">
+          <input type="email" class="email-address-wrapper" name="email" placeholder="Email">
+          <input type="password" class="password-wrapper" name="password" placeholder="Password" autofocus id="btn">
+          <button type="submit" class="login-wrapper" id="login">LOGIN</button>
+        </form>
+       
     </div>
       
 
     <script>
-      var popupframeContainer = document.getElementById("popupframeContainer");
-      if (popupframeContainer) {
-        popupframeContainer.addEventListener("click", function (e) {
-          // Please sync "Home Page Hi-Fi" to the project
-        });
-      }
+
+  const loginForm = document.querySelector('#loginForm');
+
+  loginForm.addEventListener('submit', function(event) {
+  event.preventDefault(); // prevent the default form submission
+  const email = document.querySelector('.email-address-wrapper').value;
+  const password = document.querySelector('.password-wrapper').value;
+  if (email === 'example@gmail.com' && password === 'password123') {
+    // If the login is successful, redirect the user to the home page
+
+    
+    window.location.href = 'homePageHiFi.html';
+  } else {
+    // If the login is unsuccessful, display an error message
+    alert('Invalid email or password. Please try again.');
+  }
+});
+
+// Optional: Allow the user to login with Google
+const googleLoginButton = document.querySelector('.continuewithgoogle1');
+googleLoginButton.addEventListener('click', function() {
+ 
+});
+
       </script>
   </body>
 </html>

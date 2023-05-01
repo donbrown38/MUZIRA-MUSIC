@@ -19,14 +19,15 @@
   </head>
   
   <body>
+    <!-- Nav page -->
     <div class="landing-page-hi-fi">
       <nav>
         <nav>
           <li>
-            <a href="#" class="home15">Home</a>
+            <button href="HomePageHiFi.html" id="homebtn">Home</button>
           </li>
           <li>
-            <a href="#" class="about-us">About us</a>
+            <button href="#" id="about-us">About us</button>
           </li>
           <li>
             <button class="log-in-wrapper" id="log in">
@@ -35,18 +36,13 @@
           </li>
           <li>
             <div class="sign-up-container" id="frameContainer">
-              <a href="SignUpHiFi.html" class="sign-up2">Sign Up</a>
+              <a href="SignUpPageHiFi.html" class="sign-up2">Sign Up</a>
             </div>
           </li>
         </nav>
       </nav>
 
-      <img  class="landing-page-hi-fi-child"  alt="" src="./public/group-155.svg"/>
-
-      <img  class="landing-page-hi-fi-item"   alt="" src="./public/group-143.svg"/>
-
-      <img  class="landing-page-hi-fi-inner"  alt="" src="./public/group-163.svg"/>
-
+  <!-- Page start     -->
       <div class="explore-your-music">
         Explore your music activities and generate new and exciting playlists
         without having to open your Muzira app at all
@@ -60,34 +56,29 @@
 
       <img class="landing-page-hi-fi-child3" alt="" src="./public/ellipse-141@2x.png"/>
 
-      <img class="i-3-21" alt="" src="./public/i-3-21@2x.png" />
+      <img class="logo" alt="" src="./public/logo.png"/>
 
       <button class="continue-with-muzira-wrapper" autofocus id="frameButton1">
-        <div class="continue-with-muzira">Continue with Muzira</div>
+        <a class="continue-with-muzira" href="LoginPageHiFi.html">Continue with Muzira</a>
       </button>
     </div>
 
-    <script>
-      var frameButton = document.getElementById("log in");
-      if (frameButton) {
-        frameButton.addEventListener("click", function (e) {
-          // Please sync "Login Page Hi-Fi" to the project
-        });
-      }
-      
-      var frameContainer = document.getElementById("frameContainer");
-      if (frameContainer) {
-        frameContainer.addEventListener("click", function (e) {
-          // Please sync "Sign up page Hi-Fi" to the project
-        });
-      }
-      
-      var frameButton1 = document.getElementById("frameButton1");
-      if (frameButton1) {
-        frameButton1.addEventListener("click", function (e) {
-          // Please sync "Sign up page Hi-Fi" to the project
-        });
-      }
-      </script>
+<script>
+const myButton = document.getElementById('homebtn');
+const about = document.getElementById('about-us')
+
+
+myButton.addEventListener('click', function() {
+  
+  alert('Please log in or sign up to continue');
+});
+
+about.addEventListener('click', function() {
+  
+  alert('Please log in or sign up to continue');
+});
+
+
+    </script>
   </body>
 </html>

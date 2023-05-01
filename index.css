@@ -30,10 +30,10 @@ li {
   display: inline-block;
   width: 539px;
 }
-.about-us,
+#about-us,
 .discover-your-moods,
 .explore-your-music,
-.home15 {
+#homebtn {
   position: absolute;
 }
 .discover-your-moods {
@@ -45,8 +45,8 @@ li {
   width: 447px;
   text-decoration: none;
 }
-.about-us,
-.home15 {
+#about-us,
+#homebtn {
   top: 67px;
   left: 820px;
   font-size: 18px;
@@ -55,9 +55,11 @@ li {
   color: #fff;
   list-style: none;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
-.about-us {
+#about-us {
   left: 912px;
   font-size: 18px;
 }
@@ -69,7 +71,7 @@ li {
   height: 230px;
   object-fit: cover;
 }
-.i-3-21,
+.logo,
 .landing-page-hi-fi-child2,
 .landing-page-hi-fi-child3 {
   position: absolute;
@@ -79,12 +81,12 @@ li {
   height: 238px;
   object-fit: cover;
 }
-.i-3-21,
+.logo,
 .landing-page-hi-fi-child3 {
   top: 572px;
   left: 749px;
 }
-.i-3-21 {
+.logo {
   top: 0;
   left: 0;
   width: 234px;
@@ -155,6 +157,7 @@ li {
   font-family: var(--h2-24);
   color: var(--white);
   text-align: left;
+  text-decoration: none;
 }
 .continue-with-muzira-wrapper {
   cursor: pointer;
@@ -173,15 +176,12 @@ li {
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .landing-page-hi-fi {
-  position: relative;
-  background-color: var(--color-black);
-  width: 100%;
-  height: 905px;
-  overflow: hidden;
-  text-align: left;
   font-size: var(--h2-24-size);
   color: var(--white);
   font-family: var(--h2-24);
+  height: 905px;
+  overflow: hidden;
 }

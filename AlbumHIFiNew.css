@@ -60,6 +60,7 @@
   justify-content: flex-start;
   gap: var(--gap-57xl);
 }
+
 .frame-child3,
 .frame-parent {
   position: absolute;
@@ -75,7 +76,7 @@
 .frame-parent {
   top: 113px;
   left: 382px;
-  background-color: var(--color-gray-500);
+  background-color: #0F0B0B;
   border: 1px solid var(--orange);
   box-sizing: border-box;
   width: 940px;
@@ -266,7 +267,7 @@
 }
 .settings1 {
   position: relative;
-  font-size: var(--font-size-base);
+  font-size: var(--h1-size);
   font-family: var(--font-effra-trial);
   color: var(--white);
   text-align: left;
@@ -325,7 +326,7 @@
 .album-hi-fi-new-child {
   border: 2px solid var(--color-gainsboro);
   font-family: var(--h2-24);
-  font-size: var(--h1-size);
+  font-size: 15px;
   top: 27px;
   left: 380px;
   border-radius: var(--br-8xs);
@@ -334,14 +335,9 @@
   height: 44px;
   padding: var(--padding-5xl) var(--padding-base);
   justify-content: flex-start;
+  color: #fff;
 }
-.album-hi-fi-new-item {
-  position: absolute;
-  top: 798px;
-  left: 382px;
-  width: 940px;
-  height: 60px;
-}
+
 .div,
 .group-icon {
   flex: 1;
@@ -428,15 +424,69 @@
 }
 .album-hi-fi-new {
   position: relative;
-  width: 100%;
   height: 905px;
   overflow: hidden;
-  background-image: url(./public/now-playing-hifi-new@3x.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
   text-align: left;
   font-size: var(--h1-size);
   color: var(--white);
   font-family: var(--h2-24);
+}
+
+
+/* Audio screen control  */
+
+.album-hi-fi-new-item {
+  position: absolute;
+  top: 798px;
+  left: 382px;
+  width: 940px;
+  height: 60px;
+}
+
+.album-hi-fi-new-item {
+background-color: #609;
+border-radius: 10px;
+box-shadow: 0px 0px 0px 04px rgba(73, 8, 106, 0.5);
+}
+
+.album-hi-fi-new-item::-webkit-media-controls-panel {
+background-color: #609;
+border-radius: none;
+border: none;
+box-sizing: border-box;
+box-shadow: none;
+}
+
+.album-hi-fi-new-item::-webkit-media-controls-play-button {
+background-color: rgb(255, 255, 255);
+color:black;
+border-radius: 50%;
+}
+
+.album-hi-fi-new-item::-webkit-media-controls-timeline {
+height: 6px;
+background-color: transparent;
+border: none;
+}
+
+.album-hi-fi-new-item::-webkit-media-controls-current-time-display,
+.album-hi-fi-new-item::-webkit-media-controls-time-remaining-display {
+color: rgb(255, 255, 255);
+}
+
+.album-hi-fi-new-item::-webkit-media-controls-volume-slider {
+background-color: #609;
+height: 6px;
+}
+
+.album-hi-fi-new-item::-webkit-media-controls-mute-button {
+background-color: white;
+color:black;
+border-radius: 50%;
+}
+
+.album-hi-fi-new-item::-webkit-media-controls-fullscreen-button {
+background-color: white;
+color:black;
+border-radius: 50%; 
 }
