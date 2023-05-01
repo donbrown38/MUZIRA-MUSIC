@@ -3,46 +3,35 @@ li {
   list-style: none;
 }
 .landing-page-hi-fi-child {
-  position: absolute;
+  /* position: absolute; */
   top: 396px;
   left: 0;
   width: 468.54px;
   height: 508.87px;
 }
 .landing-page-hi-fi-item {
-  position: absolute;
+  /* position: absolute; */
   top: 431px;
   left: 928px;
   width: 512px;
   height: 461.25px;
 }
 .landing-page-hi-fi-inner {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 535px;
   width: 356.26px;
   height: 402.34px;
 }
 .explore-your-music {
-  top: 448px;
-  left: 70px;
   line-height: 30px;
   display: inline-block;
-  width: 539px;
 }
-#about-us,
-.discover-your-moods,
-.explore-your-music,
-#homebtn {
-  position: absolute;
-}
+
 .discover-your-moods {
-  top: 264px;
-  left: 67px;
   font-size: 55px;
   line-height: 80px;
   display: inline-block;
-  width: 447px;
   text-decoration: none;
 }
 #about-us,
@@ -63,93 +52,35 @@ li {
   left: 912px;
   font-size: 18px;
 }
-.landing-page-hi-fi-child1 {
-  position: absolute;
-  top: 323px;
-  left: 781px;
-  width: 230px;
-  height: 230px;
-  object-fit: cover;
-}
-.logo,
-.landing-page-hi-fi-child2,
-.landing-page-hi-fi-child3 {
-  position: absolute;
-  top: 227px;
-  left: 1007px;
-  width: 238px;
-  height: 238px;
-  object-fit: cover;
-}
-.logo,
-.landing-page-hi-fi-child3 {
-  top: 572px;
-  left: 749px;
-}
 .logo {
-  top: 0;
-  left: 0;
   width: 234px;
   height: 123px;
   opacity: 0.8;
 }
+#nav li{
+  margin-bottom: 35px;
+}
 .log-in2 {
-  position: relative;
   font-size: var(--font-size-xl);
   text-decoration: none;
   list-style: none;
   line-height: 20px;
   font-family: var(--font-inter);
   color: var(--white);
-  text-align: left;
-  text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
-}
-.log-in-wrapper {
-  cursor: pointer;
-  border: 0;
-  padding: var(--padding-3xs);
   background-color: var(--orange);
-  position: absolute;
-  top: 57px;
-  left: 1071px;
-  border-radius: var(--br-5xs);
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
-  width: 120px;
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
+  padding: 10px 30px;
+  border-radius: 10px;
 }
+
 .sign-up2 {
-  position: relative;
   text-decoration: none;
   line-height: 20px;
   text-shadow: 0 0 0 rgba(255, 255, 255, 0.01);
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
-.sign-up-container {
-  position: absolute;
-  top: 57px;
-  left: 1213px;
-  text-decoration: none;
-  border-radius: var(--br-5xs);
-  background-color: var(--white);
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
-  border: 1px solid var(--orange);
-  box-sizing: border-box;
-  width: 120px;
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-3xs);
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: var(--font-size-xl);
-  color: var(--orange);
-  font-family: var(--font-inter);
-}
+
 .continue-with-muzira {
   position: relative;
   font-size: var(--h2-24-size);
@@ -161,27 +92,197 @@ li {
 }
 .continue-with-muzira-wrapper {
   cursor: pointer;
-  border: 0;
-  padding: 10px 10px;
+  border: none;
+  padding: 15px 20px;
   font-weight: 200;
   background-color: var(--orange);
-  position: absolute;
-  top: 570px;
-  left: 70px;
   border-radius: var(--br-8xs);
-  width: 333px;
-  height: 64px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
+  margin-top: 30px;
+  display: block;
+  width: 300px;
+  text-align: center;
 }
-.landing-page-hi-fi {
+header, main {
   font-size: var(--h2-24-size);
   color: var(--white);
   font-family: var(--h2-24);
-  height: 905px;
-  overflow: hidden;
+  height: 100%;
+  padding: 10px 50px;
+  /* overflow-y: hidden; */
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+#nav{
+  display: flex;
+  justify-content:right;
+  align-items: center;
+}
+nav ul li{
+  margin-left: 20px;
+}
+main{
+  display: flex;
+  justify-content: space-between;
+}
+.words{
+  flex-basis: 60%;
+  padding-top: 100px;
+}
+.images{
+  flex-basis: 40%;
+  position: relative;
+}
+.images > img{
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  position: absolute;
+}
+.images > img:nth-child(1){
+  top: 100px;
+  left: 20px;
+}
+.images > img:nth-child(2){
+  top: 20px;
+  left:250px;
+}
+.images > img:nth-child(3){
+  top:340px;
+}
+
+#openNav, #closeNav{
+  width: 50px;
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  header, main {
+    padding: 10px 20px;
+    /* overflow: hidden; */
+  }
+  .words{
+    flex-basis: 50%;
+  }
+  .images{
+    flex-basis: 50%;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  header, main {
+    padding: 10px 20px;
+    /* overflow: hidden; */
+  }
+  .words{
+    flex-basis: 50%;
+  }
+  .images{
+    flex-basis: 50%;
+  }
+  .images > img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 996px) {
+  .images > img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    position: absolute;
+  }
+  .images > img:nth-child(1){
+    top: 100px;
+    left: 20px;
+  }
+  .images > img:nth-child(2){
+    top: 20px;
+    left:200px;
+  }
+  .images > img:nth-child(3){
+    top:300px;
+  }
+}
+@media only screen and (max-width: 944px) {
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  .words{
+    text-align: center;
+  }
+  .words-btn{
+    margin: 20px auto;
+  }
+  .images{
+    display: none;
+  }
+}
+@media only screen and (max-width:770px){
+  #nav{
+    display: none;
+  }
+  .navbody{
+    padding: 10px;
+    width: 50px;
+    background-color: #660099;;
+    height: 100%;
+  }
+  #openNav{
+    width: 50px;
+    display: block;
+  }
+  #nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(128, 0, 128, 0.8);
+    text-align: right;
+    z-index: 2;
+    padding: 80px 10px 0;
+  }
+  #nav li button a{
+    text-align: right;
+  }
+  #closeNav{
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+}
+@media only screen and (max-width:560px){
+  .explore-your-music {
+    line-height: 30px;
+    display: inline-block;
+    font-size: 20px;
+  }
+  .discover-your-moods {
+    font-size: 45px;
+    line-height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  .words{
+    text-align: center;
+  }
+}
+@media only screen and (max-width:380px){
+  .continue-with-muzira-wrapper {
+    cursor: pointer;
+    border: none;
+    padding: 10px 5px;
+    width: 200px;
+    font-size: 20px;
+  }
 }

@@ -2,8 +2,11 @@ body {
   margin: 0;
   line-height: normal;
   background-image: url('./public/backgroundcover.png');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
+  background-position: center;
+  padding-bottom: 60px;
+  height: 100%;
 }
 
 :root {
