@@ -252,3 +252,35 @@ li {
   height: 123px;
   background-color: transparent;
 }
+
+@media (max-width: 768px){
+  #loginForm{
+    max-width: 90vw;
+  }
+  input{
+    max-width: 80vw;
+  }
+  
+  button{
+    max-width: 70vw;
+    margin: 0;
+    margin-left: 1.5rem ;
+  }
+  .google-removebg-preview-1-group{
+    max-width: 80vw;
+  }
+  .vector-parent3{
+    max-width: 90vw;
+    left: 25.5rem
+  }
+  .login-to-muzira{
+    top: 30px;
+    
+  }
+  .dont-have-an-container {
+    max-width: 70vw;
+    left: 30rem
+  }
+  
+  
+}
